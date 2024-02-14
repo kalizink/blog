@@ -1,6 +1,5 @@
 import React from "react";
 import NavbarComp from "./NavbarComp";
-import feb2 from "../images/2:2.png";
 import "./PlantsPage.css";
 import Feb2 from "./Feb2";
 import Feb10 from "./Feb10.js";
