@@ -23,7 +23,7 @@
 	border-radius: 4px;
 }
 @media (max-width: 900px) {
-	.column {
+	.PlantsPage .column {
 		flex: 100%;
 		max-width: 100%;
 	}

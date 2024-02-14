@@ -1,0 +1,25 @@
+.Feb10-row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.Feb10-column {
+	flex: 33%;
+	max-width: 33%;
+	padding: 0 4px;
+}
+
+.Feb10-column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+	border-radius: 4px;
+}
+@media (max-width: 900px) {
+	.Feb10-column {
+		flex: 100%;
+		max-width: 100%;
+	}
+}

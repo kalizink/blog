@@ -2,7 +2,7 @@ import React from "react";
 import NavbarComp from "./NavbarComp";
 import Feb2 from "../images/2:2.png";
 import "./PlantsPage.css";
-import Feb3 from "./Feb3.js";
+import Feb10 from "./Feb10.js";
 
 export default function PlantsPage() {
 	return (
@@ -26,7 +26,7 @@ export default function PlantsPage() {
 							/>
 						</div>
 					</div>
-					<Feb3 />
+					<Feb10 />
 				</div>
 			</div>
 		</div>
