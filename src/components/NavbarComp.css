@@ -1,0 +1,8 @@
+.NavbarComp a {
+	text-decoration: none;
+	color: black;
+}
+.NavbarComp a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}

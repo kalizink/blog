@@ -3,9 +3,11 @@ import NavbarComp from "./NavbarComp.js";
 
 export default function App() {
 	return (
-		<div className="App">
+		<div>
 			<NavbarComp />
-			<h1 className="text-center">Let's Grow 🌸</h1>
+			<div className="App">
+				<h1 className="text-center">Let's Grow 🌸</h1>
+			</div>
 		</div>
 	);
 }
