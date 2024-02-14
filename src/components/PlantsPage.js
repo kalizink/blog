@@ -1,8 +1,12 @@
 import React from "react";
 import NavbarComp from "./NavbarComp";
-import Feb2 from "../images/2:2.png";
+import feb2 from "../images/2:2.png";
 import "./PlantsPage.css";
+import Feb2 from "./Feb2";
 import Feb10 from "./Feb10.js";
+import Feb11 from "./Feb11.js";
+import Feb13 from "./Feb13";
+import Feb14 from "./Feb14";
 
 export default function PlantsPage() {
 	return (
@@ -12,21 +16,11 @@ export default function PlantsPage() {
 			<div className="PlantsPage mt-5">
 				<h1 className="text-center">Plants Page</h1>
 				<div className="plant-container">
-					{/*new day */}
-					<div className="row">
-						<div className="column">
-							<h2>Day 1: Feb 2nd 2024</h2>
-						</div>
-						<div className="column text-center">
-							<img
-								src={Feb2}
-								alt="no-rel"
-								title="Hyancinth"
-								className="img-fluid"
-							/>
-						</div>
-					</div>
+					<Feb2 />
 					<Feb10 />
+					<Feb11 />
+					<Feb13 />
+					<Feb14 />
 				</div>
 			</div>
 		</div>

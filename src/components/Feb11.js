@@ -1,0 +1,30 @@
+import React from "react";
+import Feb11a from "../images/2:11.png";
+import Feb11b from "../images/2:12.png";
+
+export default function Feb11() {
+	return (
+		<div className="export default">
+			<div className="row">
+				<div className="column3">
+					<h2> Day 10: Feb 11, 2024</h2>
+					<p>
+						I remembered I planted a bunch of herbs Day 1. You can see some
+						Thyme starting to sprout.
+					</p>
+				</div>
+				<div className="column3 text-center">
+					<img
+						src={Feb11a}
+						alt="no-rel"
+						title="Hyacinth"
+						className="img-fluid"
+					/>
+				</div>
+				<div className="column3 text-center">
+					<img src={Feb11b} alt="no-rel" title="Herbs" className="img-fluid" />
+				</div>
+			</div>
+		</div>
+	);
+}
