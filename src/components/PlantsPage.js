@@ -2,6 +2,7 @@ import React from "react";
 import NavbarComp from "./NavbarComp";
 import Feb2 from "../images/2:2.png";
 import "./PlantsPage.css";
+import Feb3 from "./Feb3.js";
 
 export default function PlantsPage() {
 	return (
@@ -14,9 +15,9 @@ export default function PlantsPage() {
 					{/*new day */}
 					<div className="row">
 						<div className="column">
-							<h2 className="text-center">Day 1: Feb 2nd 2024</h2>
+							<h2>Day 1: Feb 2nd 2024</h2>
 						</div>
-						<div className="column">
+						<div className="column text-center">
 							<img
 								src={Feb2}
 								alt="no-rel"
@@ -25,6 +26,7 @@ export default function PlantsPage() {
 							/>
 						</div>
 					</div>
+					<Feb3 />
 				</div>
 			</div>
 		</div>
