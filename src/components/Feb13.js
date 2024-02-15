@@ -7,7 +7,7 @@ export default function Feb13() {
 		<div className="Feb13">
 			<div className="row">
 				<div className="column3">
-					<h2>Day 12: Feb 13, 2024</h2>
+					<h2> Febuary 13, 2024</h2>
 				</div>
 				<div className="column3 text-center">
 					<img src={Feb13b} alt="no-rel" title="?" className="img-fuid" />

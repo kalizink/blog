@@ -5,8 +5,8 @@ export default function Feb2() {
 	return (
 		<div className="Feb2">
 			<div className="row">
-				<div className="column2">
-					<h2>Day 1: Feb 2nd 2024</h2>
+				<div className="column3">
+					<h2>Febuary 2nd 2024</h2>
 				</div>
 				<div className="column2 text-center">
 					<img

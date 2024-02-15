@@ -13,7 +13,7 @@
 }
 .column2 {
 	flex: 50%;
-	max-width: 50%;
+	max-width: 100%;
 }
 .column3 {
 	flex: 33%;
@@ -22,17 +22,19 @@
 }
 .column4 {
 	flex: 25%;
-	max-width: 25%;
+	max-width: 100%;
 	padding: 0 4px;
 }
 .PlantsPage img {
 	margin-top: 8px;
-	height: 400px;
+	height: 300px;
 	width: auto;
 	border-radius: 4px;
+	transition: all 100ms ease-in-out;
 }
-.column4 img{
-	height: 400px;
+.PlantsPage img:hover {
+	transform: scale(2.5);
+	cursor: pointer;
 }
 
 @media (max-width: 900px) {
