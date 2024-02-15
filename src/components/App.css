@@ -1,4 +1,10 @@
+:root {
+	--headerFont: "Playfair", serif;
+	--textFont: "Lora", serif;
+}
+
 .App {
 	margin: 0 auto;
 	padding: 20px 30px;
+	font-family: var(--headerFont);
 }
