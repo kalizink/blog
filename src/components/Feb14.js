@@ -15,40 +15,57 @@ export default function Feb14() {
 					`}
 					</p>
 				</div>
-				{/* pic container start */}
 				<div className="column2">
-					{/* am container start */}
 					<div className="row">
 						<div className="column2 text-center">
-							<img src={feb14c} alt="no-rel" title="?" className="img-fluid" />
+							<img
+								src={feb14c}
+								alt="no-rel"
+								title="Hyacinth"
+								className="img-fluid"
+							/>
 							<p>
 								<strong>AM</strong>
 							</p>
 						</div>
 						<div className="column2 text-center">
-							<img src={feb14a} alt="no-rel" title="?" className="img-fluid" />
+							<img
+								src={feb14a}
+								alt="no-rel"
+								title="Herbs"
+								className="img-fluid"
+							/>
 							<p>
 								<strong>AM</strong>
 							</p>
 						</div>
 					</div>
-					{/* am container end */}
-					<div className="row text-center">
+					{/* pm container start */}
+					<div className="row ">
 						<div className="column2 text-center">
-							<img src={feb14e} alt="no-rel" title="?" className="img-fluid" />
+							<img
+								src={feb14e}
+								alt="no-rel"
+								title="Hyacinth"
+								className="img-fluid"
+							/>
 							<p>
 								<strong>PM</strong>
 							</p>
 						</div>
 						<div className="column2 text-center">
-							<img src={feb14d} alt="no-rel" title="?" className="img-fluid " />
+							<img
+								src={feb14d}
+								alt="no-rel"
+								title="Herbs"
+								className="img-fluid "
+							/>
 							<p>
 								<strong>PM</strong>
 							</p>
 						</div>
 					</div>
 				</div>
-				{/* pic container end */}
 			</div>
 		</div>
 	);

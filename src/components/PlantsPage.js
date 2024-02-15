@@ -6,6 +6,7 @@ import Feb10 from "./Feb10.js";
 import Feb11 from "./Feb11.js";
 import Feb13 from "./Feb13";
 import Feb14 from "./Feb14";
+import Feb15 from "./Feb15.js";
 
 export default function PlantsPage() {
 	return (
@@ -20,6 +21,7 @@ export default function PlantsPage() {
 					<Feb11 />
 					<Feb13 />
 					<Feb14 />
+					<Feb15 />
 				</div>
 			</div>
 		</div>
