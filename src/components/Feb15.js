@@ -8,7 +8,7 @@ export default function Feb15() {
 		<div className="Feb15">
 			<div className="row">
 				<div className="column3 text-center">
-					<h2>Febuary 15, 2024</h2>
+					<h2 className="margin-adjust">Febuary 15, 2024</h2>
 				</div>
 				<div className="column2">
 					<div className="row">

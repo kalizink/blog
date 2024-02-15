@@ -9,7 +9,7 @@ export default function Feb14() {
 		<div className="Feb14">
 			<div className="row">
 				<div className="column3 text-center">
-					<h2>Febuary 14, 2024</h2>
+					<h2 className="margin-adjust"> Febuary 14, 2024</h2>
 					<p>
 						{`They are growing so quick I decided to take AM and PM photos to document :)
 					`}

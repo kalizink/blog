@@ -1,10 +1,14 @@
 .PlantsPage {
 	margin: 0 auto;
 	padding: 20px 30px;
+	background: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
 }
 .PlantsPage h2 {
 	margin-top: 200px;
 	text-align: center;
+}
+.margin-adjust {
+	margin-top: 270px !important;
 }
 .row {
 	display: flex;
@@ -25,6 +29,7 @@
 	max-width: 100%;
 	padding: 0 4px;
 }
+
 .PlantsPage img {
 	margin-top: 8px;
 	height: 300px;
