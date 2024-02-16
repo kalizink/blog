@@ -116,7 +116,9 @@
 		width: 100%;
 		border-radius: 25px;
 		padding: 10px;
-		transition: all 100ms ease-in-out;
+	}
+	.PlantsPage img:hover {
+		transition: none;
 	}
 }
 @media (min-width: 900px) {
