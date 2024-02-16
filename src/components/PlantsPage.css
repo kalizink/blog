@@ -28,7 +28,7 @@
 .row {
 	display: flex;
 	flex-wrap: wrap;
-	padding: 0 4px;
+	padding: 4px, 4px, 4px, 4px;
 }
 .columnDate {
 	flex: 25%;
@@ -48,6 +48,11 @@
 	max-width: 75%;
 	padding: 0 4px;
 }
+.container {
+	background: var(--primaryColor);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 .column2-grid {
 	flex: 50%;
 	max-width: 50%;

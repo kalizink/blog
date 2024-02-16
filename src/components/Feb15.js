@@ -6,71 +6,74 @@ import feb15d from "../images/2:15d.png";
 
 export default function Feb15() {
 	return (
-		<div className="Feb14">
-			<div className="row">
-				<div className="columnDate text-center">
-					<h2 className="margin-adjust"> Febuary 15, 2024</h2>
-					<p>
-						{`They are growing so quick I decided to take AM and PM photos to document :)
+		<div className="Feb14 mt-4">
+			<div className="container">
+				<div className="row ">
+					<div className="columnDate text-center">
+						<h2 className="margin-adjust"> Febuary 15, 2024</h2>
+						<p>
+							{`They are growing so quick I decided to take AM and PM photos to document :)
 					`}
-					</p>
-				</div>
+						</p>
+					</div>
 
-				<div className="column-grid-container">
-					{/* top row*/}
-					<div className="row">
-						<div className="column2-grid">
-							<img
-								src={feb15b}
-								alt="no-rel"
-								title="Hyacinth"
-								className="img-fluid"
-							/>
-							<p className="text-center">
-								<strong>AM</strong>
-							</p>
+					<div className="column-grid-container ">
+						{/* top row*/}
+						<div className="row">
+							<div className="column2-grid">
+								<img
+									src={feb15b}
+									alt="no-rel"
+									title="Hyacinth"
+									className="img-fluid"
+								/>
+								<p className="text-center">
+									<strong>AM</strong>
+								</p>
+							</div>
+
+							<div className="column2-grid">
+								<img
+									src={feb15a}
+									alt="no-rel"
+									title="Herbs"
+									className="img-fluid"
+								/>
+								<p className="text-center">
+									<strong>AM</strong>
+								</p>
+							</div>
 						</div>
+						{/* bottom row */}
+						<div className="row">
+							<div className="column2-grid">
+								<img
+									src={feb15c}
+									alt="no-rel"
+									title="Hyacinth"
+									className="img-fluid"
+								/>
+								<p className="text-center">
+									<strong>PM</strong>
+								</p>
+							</div>
 
-						<div className="column2-grid">
-							<img
-								src={feb15a}
-								alt="no-rel"
-								title="Herbs"
-								className="img-fluid"
-							/>
-							<p className="text-center">
-								<strong>AM</strong>
-							</p>
+							<div className="column2-grid">
+								<img
+									src={feb15d}
+									alt="no-rel"
+									title="Herbs"
+									className="img-fluid"
+								/>
+								<p className="text-center">
+									<strong>PM</strong>
+								</p>
+							</div>
 						</div>
 					</div>
-					{/* bottom row */}
-					<div className="row">
-						<div className="column2-grid">
-							<img
-								src={feb15c}
-								alt="no-rel"
-								title="Hyacinth"
-								className="img-fluid"
-							/>
-							<p className="text-center">
-								<strong>PM</strong>
-							</p>
-						</div>
-
-						<div className="column2-grid">
-							<img
-								src={feb15d}
-								alt="no-rel"
-								title="Herbs"
-								className="img-fluid"
-							/>
-							<p className="text-center">
-								<strong>PM</strong>
-							</p>
-						</div>
-					</div>
 				</div>
-			</div>
+			</div>{" "}
+			{/* herer */}
 		</div>
 	);
 }
