@@ -1,0 +1,27 @@
+:root {
+	--headerFont: "Playfair", serif;
+	--textFont: "Lora", serif;
+	--primaryColor: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+}
+.PothosPage {
+	margin: 0 auto;
+	padding: 20px 30px;
+	background: var(--primaryColor);
+	font-family: var(--headerFont);
+}
+.PothosPage h1 {
+	font-size: 80px;
+}
+.PothosPage p {
+	font-family: var(--textFont);
+	font-size: 15px;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 4px, 4px, 4px, 4px;
+}
+.column2 {
+	flex: 50%;
+	max-width: 50%;
+}

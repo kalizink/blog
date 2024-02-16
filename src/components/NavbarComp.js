@@ -22,6 +22,9 @@ export default function NavbarComp() {
 							<Nav>
 								<Link to="/PlantsPage"> Plants</Link>
 							</Nav>
+							<Nav>
+								<Link to="/PathosPage"> Pathos</Link>
+							</Nav>
 						</Nav>
 					</Navbar.Collapse>
 				</Container>
