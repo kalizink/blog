@@ -1,14 +1,15 @@
 import React from "react";
 import feb15a from "../images/2:15a.png";
 import feb15b from "../images/2:15b.png";
-import image from "../images/image.png";
+import feb15c from "../images/2:15c.png";
+import feb15d from "../images/2:15d.png";
 
 export default function Feb15() {
 	return (
 		<div className="Feb14">
 			<div className="row">
 				<div className="columnDate text-center">
-					<h2 className="margin-adjust"> Febuary 14, 2024</h2>
+					<h2 className="margin-adjust"> Febuary 15, 2024</h2>
 					<p>
 						{`They are growing so quick I decided to take AM and PM photos to document :)
 					`}
@@ -20,7 +21,7 @@ export default function Feb15() {
 					<div className="row">
 						<div className="column2-grid">
 							<img
-								src={feb15a}
+								src={feb15b}
 								alt="no-rel"
 								title="Hyacinth"
 								className="img-fluid"
@@ -32,7 +33,7 @@ export default function Feb15() {
 
 						<div className="column2-grid">
 							<img
-								src={feb15b}
+								src={feb15a}
 								alt="no-rel"
 								title="Herbs"
 								className="img-fluid"
@@ -46,7 +47,7 @@ export default function Feb15() {
 					<div className="row">
 						<div className="column2-grid">
 							<img
-								src={image}
+								src={feb15c}
 								alt="no-rel"
 								title="Hyacinth"
 								className="img-fluid"
@@ -58,7 +59,7 @@ export default function Feb15() {
 
 						<div className="column2-grid">
 							<img
-								src={image}
+								src={feb15d}
 								alt="no-rel"
 								title="Herbs"
 								className="img-fluid"

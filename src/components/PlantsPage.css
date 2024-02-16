@@ -66,7 +66,7 @@
 .column2-grid img {
 	margin-top: 8px;
 	height: 300px;
-	width: auto;
+	width: 100%;
 	border-radius: 10px;
 	padding: 5px;
 	transition: all 100ms ease-in-out;
