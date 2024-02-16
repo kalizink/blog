@@ -15,11 +15,11 @@
 .PlantsPage h2 {
 	margin-top: 200px;
 	text-align: center;
-	font-size: 40px;
+	font-size: 35px;
 }
 .PlantsPage p {
 	font-family: var(--textFont);
-	font-size: 16px;
+	font-size: 15px;
 }
 
 .margin-adjust {
@@ -101,6 +101,7 @@
 		max-width: 100%;
 	}
 	.PlantsPage h2 {
+		margin-top: 15px;
 		text-align: center !important;
 	}
 	.margin-adjust {

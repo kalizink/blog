@@ -6,15 +6,11 @@ import feb15d from "../images/2:15d.png";
 
 export default function Feb15() {
 	return (
-		<div className="Feb14 mt-4">
+		<div className="Feb15 mt-5">
 			<div className="container">
 				<div className="row ">
 					<div className="columnDate text-center">
 						<h2 className="margin-adjust"> Febuary 15, 2024</h2>
-						<p>
-							{`They are growing so quick I decided to take AM and PM photos to document :)
-					`}
-						</p>
 					</div>
 
 					<div className="column-grid-container ">
