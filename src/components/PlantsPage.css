@@ -66,7 +66,7 @@
 .column2-grid img {
 	margin-top: 8px;
 	height: 300px;
-	width: 100%;
+	width: auto;
 	border-radius: 10px;
 	padding: 5px;
 	transition: all 100ms ease-in-out;
@@ -79,12 +79,25 @@
 	transform: scale(1.75);
 }
 @media (max-width: 900px) {
-	.column2 {
+	.columnDate,
+	.column2,
+	.column3,
+	.column-grid-container,
+	.column2-grid {
 		flex: 100%;
 		max-width: 100%;
 	}
-	.column3 {
-		flex: 100%;
-		max-width: 100%;
+	.PlantsPage h2 {
+		text-align: center !important;
+	}
+	.column2 img,
+	.column3 img,
+	.column3 img,
+	.column2-grid img {
+		height: 400px;
+		width: 100%;
+		border-radius: 25px;
+		padding: 10px;
+		transition: all 100ms ease-in-out;
 	}
 }
