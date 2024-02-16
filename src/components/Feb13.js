@@ -6,7 +6,7 @@ export default function Feb13() {
 	return (
 		<div className="Feb13">
 			<div className="row">
-				<div className="column3">
+				<div className="columnDate">
 					<h2> Febuary 13, 2024</h2>
 				</div>
 				<div className="column3 text-center">

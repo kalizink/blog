@@ -5,57 +5,65 @@ import image from "../images/image.png";
 
 export default function Feb15() {
 	return (
-		<div className="Feb15">
+		<div className="Feb14">
 			<div className="row">
-				<div className="column3 text-center">
-					<h2 className="margin-adjust">Febuary 15, 2024</h2>
+				<div className="columnDate text-center">
+					<h2 className="margin-adjust"> Febuary 14, 2024</h2>
+					<p>
+						{`They are growing so quick I decided to take AM and PM photos to document :)
+					`}
+					</p>
 				</div>
-				<div className="column2">
+
+				<div className="column-grid-container">
+					{/* top row*/}
 					<div className="row">
-						<div className="column2 text-center">
+						<div className="column2-grid">
 							<img
-								src={feb15b}
+								src={feb15a}
 								alt="no-rel"
 								title="Hyacinth"
 								className="img-fluid"
 							/>
-							<p>
+							<p className="text-center">
 								<strong>AM</strong>
 							</p>
-						</div>{" "}
-						<div className="column2 text-center">
+						</div>
+
+						<div className="column2-grid">
 							<img
-								src={feb15a}
+								src={feb15b}
 								alt="no-rel"
 								title="Herbs"
 								className="img-fluid"
 							/>
-							<p>
+							<p className="text-center">
 								<strong>AM</strong>
 							</p>
 						</div>
 					</div>
-					{/* pm container start */}
-					<div className="row ">
-						<div className="column2 text-center">
+					{/* bottom row */}
+					<div className="row">
+						<div className="column2-grid">
 							<img
 								src={image}
 								alt="no-rel"
 								title="Hyacinth"
 								className="img-fluid"
 							/>
-							<p>
+							<p className="text-center">
 								<strong>PM</strong>
 							</p>
 						</div>
-						<div className="column2 text-center">
+
+						<div className="column2-grid">
 							<img
 								src={image}
 								alt="no-rel"
 								title="Herbs"
-								className="img-fluid "
+								className="img-fluid"
 							/>
-							<p>
+							<p className="text-center">
 								<strong>PM</strong>
 							</p>
 						</div>

@@ -6,9 +6,9 @@ export default function Feb11() {
 	return (
 		<div className="export default">
 			<div className="row">
-				<div className="column3">
+				<div className="columnDate ">
 					<h2> Febuary 11, 2024</h2>
-					<p>
+					<p className="text-center">
 						I remembered I planted a bunch of herbs Day 1. You can see some
 						Thyme starting to sprout.
 					</p>

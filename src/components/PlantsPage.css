@@ -1,11 +1,12 @@
 :root {
 	--headerFont: "Playfair", serif;
 	--textFont: "Lora", serif;
+	--primaryColor: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
 }
 .PlantsPage {
 	margin: 0 auto;
 	padding: 20px 30px;
-	background: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+	background: var(--primaryColor);
 	font-family: var(--headerFont);
 }
 .PlantsPage h2 {
@@ -15,6 +16,7 @@
 .PlantsPage p {
 	font-family: var(--textFont);
 }
+
 .margin-adjust {
 	margin-top: 270px !important;
 }
@@ -23,33 +25,59 @@
 	flex-wrap: wrap;
 	padding: 0 4px;
 }
+.columnDate {
+	flex: 25%;
+	max-width: 25%;
+}
 .column2 {
-	flex: 50%;
-	max-width: 100%;
+	flex: 75%;
+	max-width: 75%;
 }
 .column3 {
-	flex: 33%;
-	max-width: 33%;
+	flex: 37%;
+	max-width: 37%;
 	padding: 0 4px;
 }
-.column4 {
-	flex: 25%;
-	max-width: 100%;
+.column-grid-container {
+	flex: 75%;
+	max-width: 75%;
 	padding: 0 4px;
 }
-
-.PlantsPage img {
+.column2-grid {
+	flex: 50%;
+	max-width: 50%;
+}
+.column2 img {
+	margin-top: 8px;
+	height: 500px;
+	width: 50%;
+	border-radius: 25px;
+	padding: 20px;
+	transition: all 100ms ease-in-out;
+}
+.column3 img {
+	margin-top: 8px;
+	height: 500px;
+	width: 100%;
+	border-radius: 25px;
+	padding: 20px;
+	transition: all 100ms ease-in-out;
+}
+.column2-grid img {
 	margin-top: 8px;
 	height: 300px;
-	width: auto;
-	border-radius: 4px;
+	width: 100%;
+	border-radius: 10px;
+	padding: 5px;
 	transition: all 100ms ease-in-out;
 }
 .PlantsPage img:hover {
-	transform: scale(2.5);
+	transform: scale(1.5);
 	cursor: pointer;
 }
-
+.column2-grid img:hover {
+	transform: scale(1.75);
+}
 @media (max-width: 900px) {
 	.column2 {
 		flex: 100%;
