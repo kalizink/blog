@@ -17,11 +17,17 @@ export default function PlantsPage() {
 				<h1 className="text-center">Plants Page</h1>
 				<div className="plant-container">
 					<Feb2 />
+					<hr />
 					<Feb10 />
+					<hr />
 					<Feb11 />
+					<hr />
 					<Feb13 />
+					<hr />
 					<Feb14 />
+					<hr />
 					<Feb15 />
+					<hr />
 				</div>
 			</div>
 		</div>

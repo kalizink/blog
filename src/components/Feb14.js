@@ -15,7 +15,6 @@ export default function Feb14() {
 					`}
 					</p>
 				</div>
-
 				<div className="column-grid-container">
 					{/* top row*/}
 					<div className="row">
@@ -56,7 +55,6 @@ export default function Feb14() {
 								<strong>PM</strong>
 							</p>
 						</div>
-
 						<div className="column2-grid">
 							<img
 								src={feb14d}
@@ -68,7 +66,7 @@ export default function Feb14() {
 								<strong>PM</strong>
 							</p>
 						</div>
-					</div>s
+					</div>
 				</div>
 			</div>
 		</div>

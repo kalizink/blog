@@ -9,12 +9,17 @@
 	background: var(--primaryColor);
 	font-family: var(--headerFont);
 }
+.PlantsPage h1 {
+	font-size: 80px;
+}
 .PlantsPage h2 {
 	margin-top: 200px;
 	text-align: center;
+	font-size: 40px;
 }
 .PlantsPage p {
 	font-family: var(--textFont);
+	font-size: 16px;
 }
 
 .margin-adjust {
@@ -79,6 +84,9 @@
 	transform: scale(1.75);
 }
 @media (max-width: 900px) {
+	.PlantsPage h2 {
+		margin-top: 0;
+	}
 	.columnDate,
 	.column2,
 	.column3,
@@ -90,6 +98,10 @@
 	.PlantsPage h2 {
 		text-align: center !important;
 	}
+	.margin-adjust {
+		margin: 0 !important;
+	}
+
 	.column2 img,
 	.column3 img,
 	.column3 img,
@@ -99,5 +111,10 @@
 		border-radius: 25px;
 		padding: 10px;
 		transition: all 100ms ease-in-out;
+	}
+}
+@media (min-width: 900px) {
+	.PlantsPage hr {
+		display: none;
 	}
 }
