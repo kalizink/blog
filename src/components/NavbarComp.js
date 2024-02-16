@@ -25,7 +25,7 @@ export default function NavbarComp() {
 						</Nav>
 					</Navbar.Collapse>
 				</Container>
-			</Navbar>{" "}
+			</Navbar>
 		</div>
 	);
 }
