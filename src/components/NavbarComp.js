@@ -19,9 +19,9 @@ export default function NavbarComp() {
 							<Nav>
 								<Link to="/"> Home</Link>
 							</Nav>
-							
+
 							<Nav>
-								<Link to="/PathosPage"> Pathos</Link>
+								<Link to="/PathosPage"> Pothos</Link>
 							</Nav>
 							<Nav>
 								<Link to="/HyacinthPage"> Hyacinth</Link>

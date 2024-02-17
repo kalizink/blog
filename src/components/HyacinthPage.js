@@ -17,15 +17,17 @@ export default function HyacinthPage() {
 		<div>
 			<NavbarComp />
 			<br />
-			<div className="HyacinthPage mt-5">
-				<h1 className="text-center">
-					Hyacinth <em>(Hyacinthus Orientalis)</em>{" "}
-				</h1>
-				<p>
-					{`One of the most powerful garden scents of spring comes from hyacinth flowers (Hyacinthus orientalis) in bloom. Even at a distance, you'll notice these flowers' intense fragrance and the spikes of bright tubular flowers emerging from strap-shaped leaves. Introduced to Europe during the 16th century, hyacinth's popularity sparked Dutch bulb growers to breed more than 2,000 cultivars by the 18th century, and today there are about 60 to choose from in commercial cultivation.
+			<div className="HyacinthPage">
+				<div className="container-clear">
+					<h1 className="text-center">
+						Hyacinth <em>(Hyacinthus Orientalis)</em>{" "}
+					</h1>
+					<p>
+						{`One of the most powerful garden scents of spring comes from hyacinth flowers (Hyacinthus orientalis) in bloom. Even at a distance, you'll notice these flowers' intense fragrance and the spikes of bright tubular flowers emerging from strap-shaped leaves. Introduced to Europe during the 16th century, hyacinth's popularity sparked Dutch bulb growers to breed more than 2,000 cultivars by the 18th century, and today there are about 60 to choose from in commercial cultivation.
 
 Modern hyacinths are some of the easiest-to-grow perennial spring bulbs. Hyacinths will come back every year, though their flowers will diminish in vigor after a few seasons. They are best planted in the fall and have a moderate growth rate. Hyacinths can grow outdoors in the ground or pots, as well as indoors in a bulb vase filled with water. Keep them out of the reach of kids and critters: The bulbs are toxic to humans and pets.`}
-				</p>
+					</p>
+				</div>
 				<div className="container">
 					<div className="row">
 						<div className="column2 text-center">
