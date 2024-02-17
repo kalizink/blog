@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./components/App";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import PlantsPage from "./components/PlantsPage";
+
 import PathosPage from "./components/PothosPage";
 import HyacinthPage from "./components/HyacinthPage";
 
@@ -12,10 +12,7 @@ const router = createBrowserRouter([
 		path: "/",
 		element: <App />,
 	},
-	{
-		path: "/PlantsPage",
-		element: <PlantsPage />,
-	},
+
 	{
 		path: "/PathosPage",
 		element: <PathosPage />,

@@ -1,0 +1,26 @@
+:root {
+	--headerFont: "Playfair", serif;
+	--textFont: "Lora", serif;
+	--primaryColor: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+}
+.HyacinthPage {
+	margin: 0 auto;
+	padding: 20px 30px;
+	background: var(--primaryColor);
+	font-family: var(--headerFont);
+}
+.HyacinthPage h1 {
+	font-size: 80px;
+}
+.HyacinthPage h2 {
+	margin-top: 200px;
+	text-align: center;
+	font-size: 35px;
+}
+.HyacinthPage p {
+	font-family: var(--textFont);
+	font-size: 15px;
+}
+.HyacinthPage .date-container {
+	background: pink;
+}
