@@ -1,6 +1,6 @@
 import React from "react";
-import Feb11a from "../images/2:11.png";
-import Feb11b from "../images/2:12.png";
+import Feb11a from "../images/hyacinth/2:11.png";
+import Feb11b from "../images/herbs/2:12.png";
 
 export default function Feb11() {
 	return (

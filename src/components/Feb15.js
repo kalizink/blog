@@ -1,8 +1,8 @@
 import React from "react";
-import feb15a from "../images/2:15a.png";
-import feb15b from "../images/2:15b.png";
-import feb15c from "../images/2:15c.png";
-import feb15d from "../images/2:15d.png";
+import feb15a from "../images/herbs/2:15a.png";
+import feb15b from "../images/hyacinth/2:15b.png";
+import feb15c from "../images/hyacinth/2:15c.png";
+import feb15d from "../images/herbs/2:15d.png";
 
 export default function Feb15() {
 	return (

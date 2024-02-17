@@ -1,5 +1,5 @@
 import React from "react";
-import feb2 from "../images/2:2.png";
+import feb2 from "../images/hyacinth/2:2.png";
 
 export default function Feb2() {
 	return (
