@@ -7,6 +7,7 @@ import parent2 from "../images/pathos/parent2.png";
 import feb14 from "../images/pathos/2:14.png";
 import feb15 from "../images/pathos/2:15.png";
 import feb16 from "../images/pathos/2:16.png";
+import feb17 from "../images/pathos/2:17.png";
 
 export default function PathosPage() {
 	return (
@@ -80,7 +81,7 @@ Pothos are fast-growing plants often adding 12 to 18 inches of length in a month
 						</div>
 						<div className="column5">
 							<img
-								src={image}
+								src={feb17}
 								alt="no-rel"
 								title="Pothos clipping"
 								className="img-fluid"
