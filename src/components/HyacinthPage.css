@@ -21,11 +21,18 @@
 	font-family: var(--textFont);
 	font-size: 15px;
 }
+.HyacinthPage .img-adjust {
+	height: 275px;
+	width: 100%;
+}
+.HyacinthPage .column5 {
+	flex: 20%;
+	max-width: 20%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
 .container {
 	background: var(--primaryColor);
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 	border-radius: 4px;
-}
-.HyacinthPage .date-container {
-	background: pink;
 }
