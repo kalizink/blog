@@ -4,7 +4,7 @@ import App from "./components/App";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import PathosPage from "./components/PothosPage";
+import PothosPage from "./components/PothosPage";
 import HyacinthPage from "./components/HyacinthPage";
 
 const router = createBrowserRouter([
@@ -14,8 +14,8 @@ const router = createBrowserRouter([
 	},
 
 	{
-		path: "/PathosPage",
-		element: <PathosPage />,
+		path: "/PothosPage",
+		element: <PothosPage />,
 	},
 	{
 		path: "/HyacinthPage",

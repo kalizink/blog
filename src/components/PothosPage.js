@@ -1,5 +1,5 @@
 import React from "react";
-import NavbarComp from "./NavbarComp";
+import Navbar from "./Navbar";
 import "./PothosPage.css";
 import image from "../images/image.png";
 import parent1 from "../images/pathos/parent1.png";
@@ -12,8 +12,8 @@ import feb17 from "../images/pathos/2:17.png";
 export default function PathosPage() {
 	return (
 		<div>
-			<NavbarComp />
-			<br />
+			<Navbar />
+
 			<div className="PothosPage">
 				<div className="container-clear">
 					<h1 className="text-center">

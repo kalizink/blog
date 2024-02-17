@@ -1,5 +1,5 @@
 import React from "react";
-import NavbarComp from "./NavbarComp";
+import NavbarComp from "./Navbar";
 import "./HyacinthPage.css";
 import feb2 from "../images/hyacinth/2:2.png";
 import feb10a from "../images/hyacinth/2:10a.png";
@@ -16,7 +16,7 @@ export default function HyacinthPage() {
 	return (
 		<div>
 			<NavbarComp />
-			<br />
+
 			<div className="HyacinthPage">
 				<div className="container-clear">
 					<h1 className="text-center">
