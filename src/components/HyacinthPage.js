@@ -38,7 +38,7 @@ export default function HyacinthPage() {
 						dry
 					</p>
 				</div>
-
+				{/* pink hyacinth container start */}
 				<div className="container">
 					<h2 className="text-center">Pink Hyacinths </h2>
 					<div className="row">
@@ -134,6 +134,58 @@ export default function HyacinthPage() {
 								className="img-fluid"
 							/>
 							<h3 className="text-center">2.18.2024</h3>
+						</div>
+					</div>
+				</div>
+				{/* pink hyacinth container end */}
+				{/* purple hyacinth container start */}
+				<div className="container mt-5">
+					<h2 className="text-center">Purple Hyacinth </h2>
+					<div className="row">
+						<div className="column5">
+							<img
+								src={image}
+								alt="no-rel"
+								title="Purple Hyacinth"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">2.17.2024</h3>
+						</div>
+						<div className="column5">
+							<img
+								src={image}
+								alt="no-rel"
+								title="Purple Hyacinth"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">2.18.2024</h3>
+						</div>
+						<div className="column5">
+							<img
+								src={image}
+								alt="no-rel"
+								title="Purple Hyacinth"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">2.19.2024</h3>
+						</div>
+						<div className="column5">
+							<img
+								src={image}
+								alt="no-rel"
+								title="Purple Hyacinth"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">2.20.2024</h3>
+						</div>
+						<div className="column5">
+							<img
+								src={image}
+								alt="no-rel"
+								title="Purple Hyacinth"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">2.21.2024</h3>
 						</div>
 					</div>
 				</div>
