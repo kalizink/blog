@@ -23,33 +23,34 @@ export default function HyacinthPage() {
 						Hyacinth <em>(Hyacinthus Orientalis)</em>{" "}
 					</h1>
 					<p>
-						{`One of the most powerful garden scents of spring comes from hyacinth flowers (Hyacinthus orientalis) in bloom. Even at a distance, you'll notice these flowers' intense fragrance and the spikes of bright tubular flowers emerging from strap-shaped leaves. Introduced to Europe during the 16th century, hyacinth's popularity sparked Dutch bulb growers to breed more than 2,000 cultivars by the 18th century, and today there are about 60 to choose from in commercial cultivation.
-
-Modern hyacinths are some of the easiest-to-grow perennial spring bulbs. Hyacinths will come back every year, though their flowers will diminish in vigor after a few seasons. They are best planted in the fall and have a moderate growth rate. Hyacinths can grow outdoors in the ground or pots, as well as indoors in a bulb vase filled with water. Keep them out of the reach of kids and critters: The bulbs are toxic to humans and pets.`}
+						One of the most powerful garden scents of spring comes from hyacinth
+						flowers (Hyacinthus orientalis) in bloom. Modern hyacinths are some
+						of the easiest-to-grow perennial spring bulbs. Hyacinths will come
+						back every year, though their flowers will diminish in vigor after a
+						few seasons. Hyacinths can grow outdoors in the ground or pots, as
+						well as indoors in a bulb vase filled with water.{" "}
+						<strong>The bulbs are toxic to humans and pets.</strong>
+					</p>
+					<p>
+						<strong> Care Instructions:</strong> <br />
+						- full sun to partial shade Water once a week <br />- check the
+						ground by sticking your finger in, and water only when it's totally
+						dry
 					</p>
 				</div>
+
 				<div className="container">
+					<h2 className="text-center">Pink Hyacinths </h2>
 					<div className="row">
-						<div className="column2 text-center">
-							<p>
-								This is the first Hyacinth plant I'm growing. I got it because
-								it was pink and that's my favorite color. I got two of them as
-								bulbs and they are growing quick so lets document them :)
-							</p>
-						</div>
-						<div className="column2 text-center">
+						<div className="column5">
 							<img
 								src={feb2}
 								alt="no-rel"
 								title="Hyacinth"
 								className="img-fluid"
 							/>
+							<h3 className="text-center">2.2.2024</h3>
 						</div>
-					</div>
-				</div>
-				<div className="container">
-					<h2 className="text-center">Grow Hyacinths Grow</h2>
-					<div className="row">
 						<div className="column5">
 							<img
 								src={feb10a}
@@ -64,7 +65,7 @@ Modern hyacinths are some of the easiest-to-grow perennial spring bulbs. Hyacint
 								src={feb10b}
 								alt="no-rel"
 								title="Hyacinth"
-								className="img-fluid"
+								className="img-fluid "
 							/>
 							<h3 className="text-center">2.10.2024</h3>
 						</div>
@@ -86,6 +87,8 @@ Modern hyacinths are some of the easiest-to-grow perennial spring bulbs. Hyacint
 							/>
 							<h3 className="text-center">2.13.2024</h3>
 						</div>
+					</div>
+					<div className="row">
 						<div className="column5">
 							<img
 								src={feb14}
@@ -95,8 +98,6 @@ Modern hyacinths are some of the easiest-to-grow perennial spring bulbs. Hyacint
 							/>
 							<h3 className="text-center">2.14.2024</h3>
 						</div>
-					</div>
-					<div className="row">
 						<div className="column5">
 							<img
 								src={feb15}
@@ -123,6 +124,7 @@ Modern hyacinths are some of the easiest-to-grow perennial spring bulbs. Hyacint
 								className="img-fluid"
 							/>
 							<h3 className="text-center">2.17.2024</h3>
+							<p>The bottom one is starting to wilt from overwatering :(</p>
 						</div>
 						<div className="column5">
 							<img
@@ -132,15 +134,6 @@ Modern hyacinths are some of the easiest-to-grow perennial spring bulbs. Hyacint
 								className="img-fluid"
 							/>
 							<h3 className="text-center">2.18.2024</h3>
-						</div>{" "}
-						<div className="column5">
-							<img
-								src={image}
-								alt="no-rel"
-								title="Hyacinth"
-								className="img-fluid"
-							/>
-							<h3 className="text-center">2.19.2024</h3>
 						</div>
 					</div>
 				</div>

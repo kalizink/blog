@@ -13,7 +13,7 @@
 	font-size: 80px;
 }
 .HyacinthPage h2 {
-	margin-top: 200px;
+	
 	text-align: center;
 	font-size: 35px;
 }
@@ -36,7 +36,7 @@
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 	border-radius: 4px;
 }
-.container-clear {
+.HyacinthPage .container-clear {
 	background: transparent;
 	padding: 15px 15px 0 15px;
 	margin: 30px;
@@ -50,6 +50,9 @@
 	border-radius: 4px;
 }
 @media (max-width: 900px) {
+	.HyacinthPage {
+		padding: 1px 30px;
+	}
 	.column5 {
 		flex: 100%;
 		max-width: 100%;
