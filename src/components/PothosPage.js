@@ -13,7 +13,6 @@ export default function PathosPage() {
 	return (
 		<div>
 			<Navbar />
-
 			<div className="PothosPage">
 				<div className="container-clear">
 					<h1 className="text-center">

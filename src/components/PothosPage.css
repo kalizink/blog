@@ -21,9 +21,9 @@
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 	border-radius: 4px;
 }
-.container-clear {
+.PothosPage .container-clear {
 	background: transparent;
-	padding: 15px;
+	padding: 15px 15px 0 0;
 	margin: 30px;
 }
 
@@ -57,13 +57,16 @@
 }
 
 @media (max-width: 900px) {
+	.PothosPage {
+		padding: 1px 30px;
+	}
 	.column3,
 	.column5 {
 		flex: 100%;
 		max-width: 100%;
 	}
 	.PothosPage h1 {
-		font-size: 60px;
+		font-size: 50px;
 	}
 	.PothosPage h2 {
 		font-size: 35px;
