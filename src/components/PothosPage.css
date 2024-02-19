@@ -78,4 +78,7 @@
 	.column3 p {
 		margin: 0;
 	}
+	.column5 img:hover {
+		transform: none;
+	}
 }

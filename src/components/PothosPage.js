@@ -69,7 +69,7 @@ export default function PathosPage() {
 				<div className="container mt-5">
 					<h2 className="text-center">Grow Clippings Grow</h2>
 					<div className="row">
-						<div className="column5">
+						<div className="column5 text-center">
 							<img
 								src={feb18}
 								alt="no-rel"
@@ -78,7 +78,7 @@ export default function PathosPage() {
 							/>
 							<h3 className="text-center">2.18.2024</h3>
 						</div>
-						<div className="column5">
+						<div className="column5 text-center">
 							<img
 								src={feb19}
 								alt="no-rel"
@@ -87,7 +87,7 @@ export default function PathosPage() {
 							/>
 							<h3 className="text-center">2.19.2024</h3>
 						</div>
-						<div className="column5">
+						<div className="column5 text-center">
 							<img
 								src={image}
 								alt="no-rel"
@@ -96,7 +96,7 @@ export default function PathosPage() {
 							/>
 							<h3 className="text-center">2.20.2024</h3>
 						</div>
-						<div className="column5">
+						<div className="column5 text-center">
 							<img
 								src={image}
 								alt="no-rel"
@@ -105,7 +105,7 @@ export default function PathosPage() {
 							/>
 							<h3 className="text-center">2.21.2024</h3>
 						</div>{" "}
-						<div className="column5">
+						<div className="column5 text-center">
 							<img
 								src={image}
 								alt="no-rel"
