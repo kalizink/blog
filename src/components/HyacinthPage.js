@@ -42,7 +42,7 @@ export default function HyacinthPage() {
 				<div className="container">
 					<h2 className="text-center">Pink Hyacinths </h2>
 					<div className="row">
-						<div className="column5">
+						<div className="column5 text-center">
 							<img
 								src={feb2}
 								alt="no-rel"
@@ -51,7 +51,7 @@ export default function HyacinthPage() {
 							/>
 							<h3 className="text-center">2.2.2024</h3>
 						</div>
-						<div className="column5">
+						<div className="column5 text-center">
 							<img
 								src={feb10a}
 								alt="no-rel"
@@ -60,7 +60,7 @@ export default function HyacinthPage() {
 							/>
 							<h3 className="text-center">2.10.2024</h3>
 						</div>
-						<div className="column5">
+						<div className="column5 text-center">
 							<img
 								src={feb10b}
 								alt="no-rel"
@@ -69,7 +69,7 @@ export default function HyacinthPage() {
 							/>
 							<h3 className="text-center">2.10.2024</h3>
 						</div>
-						<div className="column5">
+						<div className="column5 text-center">
 							<img
 								src={feb11}
 								alt="no-rel"
@@ -78,7 +78,7 @@ export default function HyacinthPage() {
 							/>
 							<h3 className="text-center">2.11.2024</h3>
 						</div>
-						<div className="column5">
+						<div className="column5 text-center">
 							<img
 								src={feb13}
 								alt="no-rel"
@@ -89,7 +89,7 @@ export default function HyacinthPage() {
 						</div>
 					</div>
 					<div className="row">
-						<div className="column5">
+						<div className="column5 text-center">
 							<img
 								src={feb14}
 								alt="no-rel"
@@ -98,7 +98,7 @@ export default function HyacinthPage() {
 							/>
 							<h3 className="text-center">2.14.2024</h3>
 						</div>
-						<div className="column5">
+						<div className="column5 text-center">
 							<img
 								src={feb15}
 								alt="no-rel"
@@ -107,7 +107,7 @@ export default function HyacinthPage() {
 							/>
 							<h3 className="text-center">2.15.2024</h3>
 						</div>
-						<div className="column5">
+						<div className="column5 text-center">
 							<img
 								src={feb16}
 								alt="no-rel"
@@ -116,7 +116,7 @@ export default function HyacinthPage() {
 							/>
 							<h3 className="text-center">2.16.2024</h3>
 						</div>
-						<div className="column5">
+						<div className="column5 text-center">
 							<img
 								src={feb17}
 								alt="no-rel"
@@ -126,7 +126,7 @@ export default function HyacinthPage() {
 							<h3 className="text-center">2.17.2024</h3>
 							<p>The bottom one is starting to wilt from overwatering :(</p>
 						</div>
-						<div className="column5">
+						<div className="column5 text-center">
 							<img
 								src={image}
 								alt="no-rel"
@@ -142,7 +142,7 @@ export default function HyacinthPage() {
 				<div className="container mt-5">
 					<h2 className="text-center">Purple Hyacinth </h2>
 					<div className="row">
-						<div className="column5">
+						<div className="column5 text-center">
 							<img
 								src={image}
 								alt="no-rel"
@@ -151,7 +151,7 @@ export default function HyacinthPage() {
 							/>
 							<h3 className="text-center">2.17.2024</h3>
 						</div>
-						<div className="column5">
+						<div className="column5 text-center">
 							<img
 								src={image}
 								alt="no-rel"
@@ -160,7 +160,7 @@ export default function HyacinthPage() {
 							/>
 							<h3 className="text-center">2.18.2024</h3>
 						</div>
-						<div className="column5">
+						<div className="column5 text-center">
 							<img
 								src={image}
 								alt="no-rel"
@@ -169,7 +169,7 @@ export default function HyacinthPage() {
 							/>
 							<h3 className="text-center">2.19.2024</h3>
 						</div>
-						<div className="column5">
+						<div className="column5 text-center">
 							<img
 								src={image}
 								alt="no-rel"
@@ -178,7 +178,7 @@ export default function HyacinthPage() {
 							/>
 							<h3 className="text-center">2.20.2024</h3>
 						</div>
-						<div className="column5">
+						<div className="column5 text-center">
 							<img
 								src={image}
 								alt="no-rel"
