@@ -18,6 +18,9 @@ export default function Navbar() {
 				<li>
 					<Link to="/HyacinthPage">Hyacinth</Link>
 				</li>
+				<li>
+					<Link to="/TulipPage">Tulip</Link>
+				</li>
 			</ul>
 		</div>
 	);

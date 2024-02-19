@@ -10,6 +10,11 @@ import feb14 from "../images/hyacinth/2:14.png";
 import feb15 from "../images/hyacinth/2:15.png";
 import feb16 from "../images/hyacinth/2:16.png";
 import feb17 from "../images/hyacinth/2:17.png";
+import feb18 from "../images/hyacinth/2:18.png";
+import feb19 from "../images/hyacinth/2:19.png";
+import feb17p from "../images/purpleH/2:17.png";
+import feb18p from "../images/purpleH/2:18.png";
+import feb19p from "../images/purpleH/2:19.png";
 import image from "../images/image.png";
 
 export default function HyacinthPage() {
@@ -88,6 +93,7 @@ export default function HyacinthPage() {
 							<h3 className="text-center">2.13.2024</h3>
 						</div>
 					</div>
+					{/* start 2nd row */}
 					<div className="row">
 						<div className="column5 text-center">
 							<img
@@ -128,12 +134,61 @@ export default function HyacinthPage() {
 						</div>
 						<div className="column5 text-center">
 							<img
-								src={image}
+								src={feb18}
 								alt="no-rel"
 								title="Hyacinth"
 								className="img-fluid"
 							/>
 							<h3 className="text-center">2.18.2024</h3>
+							<p>Bottom one is dying...</p>
+						</div>
+					</div>
+					{/* start 3rd row */}
+					<div className="row">
+						<div className="column5 text-center">
+							<img
+								src={feb19}
+								alt="no-rel"
+								title="Hyacinth"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">2.19.2024</h3>
+						</div>{" "}
+						<div className="column5 text-center">
+							<img
+								src={image}
+								alt="no-rel"
+								title="Hyacinth"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">2.20.2024</h3>
+						</div>
+						<div className="column5 text-center">
+							<img
+								src={image}
+								alt="no-rel"
+								title="Hyacinth"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">2.21.2024</h3>
+						</div>
+						<div className="column5 text-center">
+							<img
+								src={image}
+								alt="no-rel"
+								title="Hyacinth"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">2.22.2024</h3>
+						</div>
+						<div className="column5 text-center">
+							<img
+								src={image}
+								alt="no-rel"
+								title="Hyacinth"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">2.23.2024</h3>
 						</div>
 					</div>
 				</div>
@@ -144,25 +199,27 @@ export default function HyacinthPage() {
 					<div className="row">
 						<div className="column5 text-center">
 							<img
-								src={image}
+								src={feb17p}
 								alt="no-rel"
 								title="Purple Hyacinth"
 								className="img-fluid"
 							/>
 							<h3 className="text-center">2.17.2024</h3>
+							<p>All of his roots rotted off when I replanted</p>
 						</div>
 						<div className="column5 text-center">
 							<img
-								src={image}
+								src={feb18p}
 								alt="no-rel"
 								title="Purple Hyacinth"
 								className="img-fluid"
 							/>
 							<h3 className="text-center">2.18.2024</h3>
+							<p>Drying out in a new home</p>
 						</div>
 						<div className="column5 text-center">
 							<img
-								src={image}
+								src={feb19p}
 								alt="no-rel"
 								title="Purple Hyacinth"
 								className="img-fluid"

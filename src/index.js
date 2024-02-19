@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import PothosPage from "./components/PothosPage";
 import HyacinthPage from "./components/HyacinthPage";
+import TulipPage from "./components/TulipPage";
 
 const router = createBrowserRouter([
 	{
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
 	{
 		path: "/HyacinthPage",
 		element: <HyacinthPage />,
+	},
+	{
+		path: "/TulipPage",
+		element: <TulipPage />,
 	},
 ]);
 

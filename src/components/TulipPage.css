@@ -1,0 +1,61 @@
+:root {
+	--headerFont: "Playfair", serif;
+	--textFont: "Lora", serif;
+	--primaryColor: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+}
+.TulipPage {
+	margin: 0 auto;
+	padding: 20px 30px;
+	background: var(--primaryColor);
+	font-family: var(--headerFont);
+}
+.container {
+	background: var(--primaryColor);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+	border-radius: 4px;
+}
+.TulipPage .container-clear {
+	background: transparent;
+	padding: 15px 15px 0 15px;
+	margin: 30px;
+}
+.TulipPage h1 {
+	font-size: 80px;
+}
+.TulipPage h2 {
+	text-align: center;
+	font-size: 35px;
+}
+.TulipPage p {
+	font-family: var(--textFont);
+	font-size: 15px;
+}
+.TulipPage .row {
+	display: flex;
+	flex-wrap: wrap;
+}
+.TulipPage .column5 {
+	flex: 20%;
+	max-width: 20%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.TulipPage .column5 img {
+	margin-top: 20px;
+	width: 100%;
+}
+@media (max-width: 900px) {
+	.TulipPage {
+		padding: 1px 30px;
+	}
+	.TulipPage .column5 {
+		flex: 100%;
+		max-width: 100%;
+	}
+	.TulipPage h1 {
+		font-size: 50px;
+	}
+	.TulipPage h2 {
+		font-size: 35px;
+	}
+}
