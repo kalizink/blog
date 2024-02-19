@@ -44,6 +44,11 @@
 	width: 100%;
 	height: 250px;
 	border-radius: 4px;
+	transition: all 150ms ease-in-out;
+}
+.HerbPage .column4 img:hover {
+	transform: scale(2);
+	cursor: pointer;
 }
 @media (max-width: 900px) {
 	.HerbPage {
@@ -58,5 +63,8 @@
 	}
 	.HerbPage h2 {
 		font-size: 35px;
+	}
+	.HerbPage .column4 img:hover {
+		transform: none;
 	}
 }
