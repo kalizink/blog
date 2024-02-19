@@ -4,7 +4,6 @@ import "./PothosPage.css";
 import image from "../images/image.png";
 import parent1 from "../images/pathos/parent1.png";
 import parent2 from "../images/pathos/parent2.png";
-import feb17 from "../images/pathos/2:17.png"
 import feb18 from "../images/pathos/2:18.png";
 import feb19 from "../images/pathos/2:19.png";
 
@@ -70,7 +69,6 @@ export default function PathosPage() {
 				<div className="container mt-5">
 					<h2 className="text-center">Grow Clippings Grow</h2>
 					<div className="row">
-				
 						<div className="column5">
 							<img
 								src={feb18}
