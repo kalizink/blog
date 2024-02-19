@@ -9,9 +9,11 @@ body {
 	align-items: center;
 	padding: 0 1rem;
 	gap: 2rem;
+	height: 70px;
 }
 .Navbar .icon {
 	font-size: 30px;
+	padding-top: 12px;
 }
 .Navbar ul {
 	padding: 0;
@@ -27,7 +29,6 @@ body {
 	display: flex;
 	text-align: center;
 	padding: 2px;
-
 }
 .Navbar li.active {
 	background: #555;
