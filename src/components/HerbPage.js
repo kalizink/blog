@@ -25,7 +25,6 @@ export default function HerbPage() {
 						watermelon, thyme, basil, onion, sweet peppers, green onion :)
 					</p>
 					<p>
-						****
 						<strong> Care Instructions:</strong> <br />- Most herbs grow best in
 						well-drained soil and develop intense flavor if kept on the dry
 						side. <br />- Watering needs depend on soil type, weather
