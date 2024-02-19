@@ -21,6 +21,9 @@ export default function Navbar() {
 				<li>
 					<Link to="/TulipPage">Tulip</Link>
 				</li>
+				<li>
+					<Link to="/HerbPage">Herbs</Link>
+				</li>
 			</ul>
 		</div>
 	);
