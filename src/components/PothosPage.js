@@ -4,10 +4,9 @@ import "./PothosPage.css";
 import image from "../images/image.png";
 import parent1 from "../images/pathos/parent1.png";
 import parent2 from "../images/pathos/parent2.png";
-import feb14 from "../images/pathos/2:14.png";
-import feb15 from "../images/pathos/2:15.png";
-import feb16 from "../images/pathos/2:16.png";
-import feb17 from "../images/pathos/2:17.png";
+import feb17 from "../images/pathos/2:17.png"
+import feb18 from "../images/pathos/2:18.png";
+import feb19 from "../images/pathos/2:19.png";
 
 export default function PathosPage() {
 	return (
@@ -67,74 +66,14 @@ export default function PathosPage() {
 						</div>
 					</div>
 				</div>
-				{/* parent container end */}
-				{/* clipping container start */}
+
 				<div className="container mt-5">
 					<h2 className="text-center">Grow Clippings Grow</h2>
 					<div className="row">
+				
 						<div className="column5">
 							<img
-								src={feb14}
-								alt="no-rel"
-								title="Pothos clipping"
-								className="img-fluid"
-							/>
-							<h3 className="text-center">2.14.2024</h3>
-						</div>
-						<div className="column5">
-							<img
-								src={feb15}
-								alt="no-rel"
-								title="Pothos clipping"
-								className="img-fluid"
-							/>
-							<h3 className="text-center">2.15.2024</h3>
-						</div>
-						<div className="column5">
-							<img
-								src={feb16}
-								alt="no-rel"
-								title="Pothos clipping"
-								className="img-fluid"
-							/>
-							<h3 className="text-center">2.16.2024</h3>
-						</div>
-						<div className="column5">
-							<img
-								src={feb17}
-								alt="no-rel"
-								title="Pothos clipping"
-								className="img-fluid"
-							/>
-							<h3 className="text-center">2.17.2024</h3>
-						</div>
-						<div className="column5">
-							<img
-								src={image}
-								alt="no-rel"
-								title="Pothos clipping"
-								className="img-fluid"
-							/>
-							<h3 className="text-center">2.18.2024</h3>
-						</div>
-					</div>
-				</div>
-				{/* propegate container */}
-				<div className="container mt-5">
-					<h2 className="text-center">Let's Propegate</h2>
-					<div className="row">
-						<div className="column5">
-							<img
-								src={image}
-								alt="no-rel"
-								title="propegation"
-								className="img-fluid"
-							/>
-							<h3 className="text-center">2.17.2024</h3>
-						</div>
-						<div className="column5">
-							<img
-								src={image}
+								src={feb18}
 								alt="no-rel"
 								title="propegation"
 								className="img-fluid"
@@ -143,7 +82,7 @@ export default function PathosPage() {
 						</div>
 						<div className="column5">
 							<img
-								src={image}
+								src={feb19}
 								alt="no-rel"
 								title="propegation"
 								className="img-fluid"
@@ -167,6 +106,15 @@ export default function PathosPage() {
 								className="img-fluid"
 							/>
 							<h3 className="text-center">2.21.2024</h3>
+						</div>{" "}
+						<div className="column5">
+							<img
+								src={image}
+								alt="no-rel"
+								title="propegation"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">2.22.2024</h3>
 						</div>
 					</div>
 				</div>

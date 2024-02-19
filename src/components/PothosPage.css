@@ -54,8 +54,12 @@
 }
 .column5 img {
 	border-radius: 4px;
+	height: 300px;
+	transition: all 100ms ease-in-out;
 }
-
+.column5 img:hover {
+	transform: scale(2);
+}
 @media (max-width: 900px) {
 	.PothosPage {
 		padding: 1px 30px;
