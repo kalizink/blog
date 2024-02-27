@@ -1,7 +1,7 @@
 import React from "react";
 import "./HerbPage.css";
 import Navbar from "./Navbar";
-
+import image from "../images/image.png";
 import feb12 from "../images/herbs/2:12.png";
 import feb13 from "../images/herbs/2:13.png";
 import feb14 from "../images/herbs/2:14.png";
@@ -10,6 +10,11 @@ import feb16 from "../images/herbs/2:16.png";
 import feb17 from "../images/herbs/2:17.png";
 import feb18 from "../images/herbs/2:18.png";
 import feb19 from "../images/herbs/2:19.png";
+import feb20 from "../images/herbs/2:20.png";
+import feb21 from "../images/herbs/2:21.png";
+import feb22 from "../images/herbs/2:22.png";
+import feb23 from "../images/herbs/2:23.png";
+import feb26 from "../images/herbs/2:26.png";
 
 export default function HerbPage() {
 	return (
@@ -34,6 +39,7 @@ export default function HerbPage() {
 				{/* pic container start */}
 				<div className="container">
 					<h2 className="text-center">Let's Grow Herbs </h2>
+					{/* 1st row start */}
 					<div className="row">
 						<div className="column4 text-center">
 							<img
@@ -109,6 +115,85 @@ export default function HerbPage() {
 								className="img-fluid"
 							/>
 							<h3 className="text-center">2.19.2024</h3>
+						</div>
+					</div>
+					{/* 3rd row */}
+					<div className="row">
+						<div className="column4 text-center">
+							<img
+								src={feb20}
+								alt="no-rel"
+								title="Herbs"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">2.20.2024</h3>
+						</div>
+						<div className="column4 text-center">
+							<img
+								src={feb21}
+								alt="no-rel"
+								title="Herbs"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">2.21.2024</h3>
+						</div>
+						<div className="column4 text-center">
+							<img
+								src={feb22}
+								alt="no-rel"
+								title="Herbs"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">2.22.2024</h3>
+						</div>
+						<div className="column4 text-center">
+							<img
+								src={feb23}
+								alt="no-rel"
+								title="Herbs"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">2.23.2024</h3>
+						</div>
+					</div>
+
+					{/* 4th row */}
+					<div className="row">
+						<div className="column4 text-center">
+							<img
+								src={feb26}
+								alt="no-rel"
+								title="Herbs"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">2.26.2024</h3>
+						</div>
+						<div className="column4 text-center">
+							<img
+								src={image}
+								alt="no-rel"
+								title="Herbs"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">2.27.2024</h3>
+						</div>{" "}
+						<div className="column4 text-center">
+							<img
+								src={image}
+								alt="no-rel"
+								title="Herbs"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">2.28.2024</h3>
+						</div>
+						<div className="column4 text-center">
+							<img
+								src={image}
+								alt="no-rel"
+								title="Herbs"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">2.29.2024</h3>
 						</div>
 					</div>
 				</div>
