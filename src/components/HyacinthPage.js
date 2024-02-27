@@ -1,20 +1,13 @@
 import React from "react";
 import NavbarComp from "./Navbar";
 import "./HyacinthPage.css";
-import feb2 from "../images/hyacinth/2:2.png";
-import feb10a from "../images/hyacinth/2:10a.png";
-import feb10b from "../images/hyacinth/2:10b.png";
-import feb11 from "../images/hyacinth/2:11.png";
-import feb13 from "../images/hyacinth/2:13.png";
-import feb14 from "../images/hyacinth/2:14.png";
-import feb15 from "../images/hyacinth/2:15.png";
-import feb16 from "../images/hyacinth/2:16.png";
-import feb17 from "../images/hyacinth/2:17.png";
-import feb18 from "../images/hyacinth/2:18.png";
-import feb19 from "../images/hyacinth/2:19.png";
 import feb17p from "../images/purpleH/2:17.png";
 import feb18p from "../images/purpleH/2:18.png";
 import feb19p from "../images/purpleH/2:19.png";
+import feb21 from "../images/purpleH/2:21.png";
+import feb22 from "../images/purpleH/2:22.png";
+import feb23 from "../images/purpleH/2:23.png";
+import feb26 from "../images/purpleH/2:26.png";
 import image from "../images/image.png";
 
 export default function HyacinthPage() {
@@ -43,159 +36,11 @@ export default function HyacinthPage() {
 						dry
 					</p>
 				</div>
-				{/* pink hyacinth container start */}
-				<div className="container">
-					<h2 className="text-center">Pink Hyacinths </h2>
-					<div className="row">
-						<div className="column5 text-center">
-							<img
-								src={feb2}
-								alt="no-rel"
-								title="Hyacinth"
-								className="img-fluid"
-							/>
-							<h3 className="text-center">2.2.2024</h3>
-						</div>
-						<div className="column5 text-center">
-							<img
-								src={feb10a}
-								alt="no-rel"
-								title="Hyacinth"
-								className="img-fluid"
-							/>
-							<h3 className="text-center">2.10.2024</h3>
-						</div>
-						<div className="column5 text-center">
-							<img
-								src={feb10b}
-								alt="no-rel"
-								title="Hyacinth"
-								className="img-fluid "
-							/>
-							<h3 className="text-center">2.10.2024</h3>
-						</div>
-						<div className="column5 text-center">
-							<img
-								src={feb11}
-								alt="no-rel"
-								title="Hyacinth"
-								className="img-fluid img-adjust"
-							/>
-							<h3 className="text-center">2.11.2024</h3>
-						</div>
-						<div className="column5 text-center">
-							<img
-								src={feb13}
-								alt="no-rel"
-								title="Hyacinth"
-								className="img-fluid"
-							/>
-							<h3 className="text-center">2.13.2024</h3>
-						</div>
-					</div>
-					{/* start 2nd row */}
-					<div className="row">
-						<div className="column5 text-center">
-							<img
-								src={feb14}
-								alt="no-rel"
-								title="Hyacinth"
-								className="img-fluid"
-							/>
-							<h3 className="text-center">2.14.2024</h3>
-						</div>
-						<div className="column5 text-center">
-							<img
-								src={feb15}
-								alt="no-rel"
-								title="Hyacinth"
-								className="img-fluid"
-							/>
-							<h3 className="text-center">2.15.2024</h3>
-						</div>
-						<div className="column5 text-center">
-							<img
-								src={feb16}
-								alt="no-rel"
-								title="Hyacinth"
-								className="img-fluid"
-							/>
-							<h3 className="text-center">2.16.2024</h3>
-						</div>
-						<div className="column5 text-center">
-							<img
-								src={feb17}
-								alt="no-rel"
-								title="Hyacinth"
-								className="img-fluid"
-							/>
-							<h3 className="text-center">2.17.2024</h3>
-							<p>The bottom one is starting to wilt from overwatering :(</p>
-						</div>
-						<div className="column5 text-center">
-							<img
-								src={feb18}
-								alt="no-rel"
-								title="Hyacinth"
-								className="img-fluid"
-							/>
-							<h3 className="text-center">2.18.2024</h3>
-							<p>Bottom one is dying...</p>
-						</div>
-					</div>
-					{/* start 3rd row */}
-					<div className="row">
-						<div className="column5 text-center">
-							<img
-								src={feb19}
-								alt="no-rel"
-								title="Hyacinth"
-								className="img-fluid"
-							/>
-							<h3 className="text-center">2.19.2024</h3>
-						</div>{" "}
-						<div className="column5 text-center">
-							<img
-								src={image}
-								alt="no-rel"
-								title="Hyacinth"
-								className="img-fluid"
-							/>
-							<h3 className="text-center">2.20.2024</h3>
-						</div>
-						<div className="column5 text-center">
-							<img
-								src={image}
-								alt="no-rel"
-								title="Hyacinth"
-								className="img-fluid"
-							/>
-							<h3 className="text-center">2.21.2024</h3>
-						</div>
-						<div className="column5 text-center">
-							<img
-								src={image}
-								alt="no-rel"
-								title="Hyacinth"
-								className="img-fluid"
-							/>
-							<h3 className="text-center">2.22.2024</h3>
-						</div>
-						<div className="column5 text-center">
-							<img
-								src={image}
-								alt="no-rel"
-								title="Hyacinth"
-								className="img-fluid"
-							/>
-							<h3 className="text-center">2.23.2024</h3>
-						</div>
-					</div>
-				</div>
-				{/* pink hyacinth container end */}
+
 				{/* purple hyacinth container start */}
 				<div className="container mt-5">
 					<h2 className="text-center">Purple Hyacinth </h2>
+					{/* 1st row start */}
 					<div className="row">
 						<div className="column5 text-center">
 							<img
@@ -228,12 +73,42 @@ export default function HyacinthPage() {
 						</div>
 						<div className="column5 text-center">
 							<img
-								src={image}
+								src={feb21}
 								alt="no-rel"
 								title="Purple Hyacinth"
 								className="img-fluid"
 							/>
-							<h3 className="text-center">2.20.2024</h3>
+							<h3 className="text-center">2.21.2024</h3>
+						</div>
+						<div className="column5 text-center">
+							<img
+								src={feb22}
+								alt="no-rel"
+								title="Purple Hyacinth"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">2.22.2024</h3>
+						</div>
+					</div>
+					{/* 2nd row start */}
+					<div className="row">
+						<div className="column5 text-center">
+							<img
+								src={feb23}
+								alt="no-rel"
+								title="Purple Hyacinth"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">2.23.2024</h3>
+						</div>{" "}
+						<div className="column5 text-center">
+							<img
+								src={feb26}
+								alt="no-rel"
+								title="Purple Hyacinth"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">2.26.2024</h3>
 						</div>
 						<div className="column5 text-center">
 							<img
@@ -242,7 +117,25 @@ export default function HyacinthPage() {
 								title="Purple Hyacinth"
 								className="img-fluid"
 							/>
-							<h3 className="text-center">2.21.2024</h3>
+							<h3 className="text-center">2.27.2024</h3>
+						</div>{" "}
+						<div className="column5 text-center">
+							<img
+								src={image}
+								alt="no-rel"
+								title="Purple Hyacinth"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">2.28.2024</h3>
+						</div>
+						<div className="column5 text-center">
+							<img
+								src={image}
+								alt="no-rel"
+								title="Purple Hyacinth"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">2.29.2024</h3>
 						</div>
 					</div>
 				</div>
