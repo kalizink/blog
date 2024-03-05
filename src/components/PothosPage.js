@@ -11,6 +11,10 @@ import feb21 from "../images/pathos/2:21.png";
 import feb22 from "../images/pathos/2:22.png";
 import feb23 from "../images/pathos/2:23.png";
 import feb26 from "../images/pathos/2:26.png";
+import feb27 from "../images/pathos/2:27.png";
+import feb29 from "../images/pathos/2:29.png";
+import march3 from "../images/pathos/3:3.png";
+import march4 from "../images/pathos/3:4.png";
 
 export default function PathosPage() {
 	return (
@@ -144,21 +148,42 @@ export default function PathosPage() {
 						</div>
 						<div className="column5 text-center">
 							<img
-								src={image}
+								src={feb27}
 								alt="no-rel"
 								title="propegation"
 								className="img-fluid"
 							/>
 							<h3 className="text-center">2.27.2024</h3>
-						</div>{" "}
+						</div>
 						<div className="column5 text-center">
 							<img
-								src={image}
+								src={feb29}
 								alt="no-rel"
 								title="propegation"
 								className="img-fluid"
 							/>
-							<h3 className="text-center">2.28.2024</h3>
+							<h3 className="text-center">2.29.2024</h3>
+						</div>
+						<div className="column5 text-center">
+							<img
+								src={march3}
+								alt="no-rel"
+								title="propegation"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">3.3.2024</h3>
+						</div>
+					</div>
+					{/* 3rd row start */}
+					<div className="row">
+						<div className="column5 text-center">
+							<img
+								src={march4}
+								alt="no-rel"
+								title="propegation"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">3.4.2024</h3>
 						</div>
 						<div className="column5 text-center">
 							<img
@@ -167,7 +192,34 @@ export default function PathosPage() {
 								title="propegation"
 								className="img-fluid"
 							/>
-							<h3 className="text-center">2.29.2024</h3>
+							<h3 className="text-center">3.5.2024</h3>
+						</div>{" "}
+						<div className="column5 text-center">
+							<img
+								src={image}
+								alt="no-rel"
+								title="propegation"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">3.6.2024</h3>
+						</div>
+						<div className="column5 text-center">
+							<img
+								src={image}
+								alt="no-rel"
+								title="propegation"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">3.7.2024</h3>
+						</div>
+						<div className="column5 text-center">
+							<img
+								src={image}
+								alt="no-rel"
+								title="propegation"
+								className="img-fluid"
+							/>
+							<h3 className="text-center">3.8.2024</h3>
 						</div>
 					</div>
 				</div>

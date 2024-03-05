@@ -125,7 +125,8 @@ export default function TulipPage() {
 								className="img-fuid"
 							/>
 							<h3 className="text-center">2.27.2024</h3>
-						</div>{" "}
+							<p>It died</p>
+						</div>
 						<div className="column5 text-center">
 							<img
 								src={image}
